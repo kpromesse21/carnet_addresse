@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#map {
+    width: 100%;
+    height: 400px;
+    background: #d6d6d6;
+}
+
+.pad-pro{
+    display: flex;
+    gap: 20px;
+}
+.pad{
+    width: 100%;
+}
+.pad-contact{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    
+}
+.card{
+    border-radius: 10px;
+    background-color: #837777;
+    /* color: antiquewhite; */
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+div[for^='a'] , 
+div[for^='b'] ,
+div[for^='c'] ,
+div[for^='d'] ,
+div[for^='e'] ,
+div[for^='f'] ,
+div[for^='g'] ,
+div[for^='h'] ,
+div[for^='i'] ,
+div[for^='j'] ,
+div[for^='k'] ,
+div[for^='l'] ,
+div[for^='m'] ,
+div[for^='n'] ,
+div[for^='o'] ,
+div[for^='p'] ,
+div[for^='q'] ,
+div[for^='r'] , 
+div[for^='s'] ,
+div[for^='t'] ,
+div[for^='u'] ,
+div[for^='v'] ,
+div[for^='w'],
+div[for^='z'] {
+    color: white;
+    background-color: black;
+    padding: 0 5px;
+    /* content: initial('a'); */
+    position: sticky;
+    top: 0px;
+    display: block;
+} 
+
+.label{
+    display: none;
+}
